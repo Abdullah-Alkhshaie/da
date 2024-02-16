@@ -18,7 +18,7 @@ function Sidebar() {
   };
 
   const activeLink =
-    "flex items-center gap-5 pl-4 pt-3 pb-2.3 rounded-lg text-white text-md m-2 ";
+    "flex items-center gap-5 pl-4 pt-3 pb-2.3 rounded-lg text-black text-md m-2 ";
 
   const noormalLink =
     "flex items-center gap-5 pl-4 pt-3 pb-2.3 rounded-lg dark:text-gray-200 dark:hover:text-black hover:bg-light-gray m-2 text-md text-gray-700  ";

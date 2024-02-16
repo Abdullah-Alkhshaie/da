@@ -7,10 +7,8 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import avatar from "../data/avatar.jpg";
 import { useStateContext } from "../contexts/ContextProvider";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-import Cart from "./Cart";
-import Chat from "./Chat";
-import Notification from "./Notification";
-import UserProfile from "./UserProfile";
+
+import { Notification, UserProfile, Chat, Cart } from "./index";
 
 const NavButton = ({ title, cutsomFunc, icon, color, dotColor }) => (
   <TooltipComponent content={title} position="BottomCenter">
@@ -23,9 +21,8 @@ const NavButton = ({ title, cutsomFunc, icon, color, dotColor }) => (
       <span
         className=" absolute inline-flex rounded-full h-2 w-2 right-2 top-2"
         style={{ backgroundColor: dotColor }}
-      >
-        {icon}
-      </span>
+      />
+      {icon}
     </button>
   </TooltipComponent>
 );
